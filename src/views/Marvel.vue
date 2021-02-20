@@ -1,10 +1,18 @@
 <template>
-  <h1>Marvel page</h1>
+<div>
+ <h1>Marvel page</h1>
+  <Characters/>
+</div>
 </template>
 
 <script>
-export default {
+import Characters from '@/components/Characters.vue'
 
+export default {
+  name: 'Marvel',
+  components: {
+    Characters
+  }
 }
 </script>
 
