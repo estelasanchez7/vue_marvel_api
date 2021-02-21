@@ -12,7 +12,8 @@ export default {
   name: 'Marvel',
   components: {
     Characters
-  }
+  },
+  
 }
 </script>
 
